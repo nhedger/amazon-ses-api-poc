@@ -1,0 +1,20 @@
+{
+    "name": "hedger/amazon-ses-api-poc",
+    "description": "",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nicolas Hedger",
+            "email": "nicolas@hedger.ch"
+        }
+    ],
+    "require": {
+        "aws/aws-sdk-php": "^3.173",
+        "symfony/console": "^5.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Hedger\\SES\\": "src"
+        }
+    }
+}
